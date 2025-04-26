@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+ul>li{
+    display: inline-block;
+    background-color: white;
+    margin: 5px;
+    padding-left: 5px;  
+}
+.hero{
+    background-color: rgb(228, 228, 250);
+    margin-top: 10px;
+    padding: 10px;
+}
+.hero>h3{
+    text-align: center;
+
+    
+}
+
+.hero>a{
+    text-decoration: none;
+    color: blue;
+}
+.content{
+    display:flex;
+    justify-content: space-between;      
+}
+.content>h1{
+    margin: 50px;
+    font-size: 70px;
+}
+.contenth1{
+    margin-right: 10px;
+    margin-top: 60px;
+    font-size:20px ;
+}
+.video1{
+margin-top: 10px;
+}
+video{
+    
+    width: 100%;
+    height: auto;
+}
+.content2{
+    margin: 30px;
+}
+
+.content2>h1{
+    font-size: 60px;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img{
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 40px;
+}
+.content3{
+    margin: 30px;
+    display: flex;
+    justify-items: flex-start;
+    
+}
+.content3>h1{
+font-size: 40px;
+}
+.content3>p{
+    margin-left: 800px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1879db;
+}
+.iphone-showcase {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .iphone-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .iphone-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .colors {
+    margin: 10px 0;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 15px 0 5px;
+  }
+  
+  .new {
+    color: orange;
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .learn {
+    background-color: #0071e3;
+    color: white;
+  }
+  
+  .learn:hover {
+    background-color: #005bb5;
+  }
+  
+  .buy {
+    color: #0071e3;
+    padding: 10px 0;
+  }
+  
+  .buy:hover {
+    text-decoration: underline;
+  }
+
+   
+ .content4{
+    margin: 5px;
+ }
+ .content4>h1{
+    font-size: 60px;
+    margin-left: 8px;
+ }
+ .images2>img{
+    width: 80%;
+    height: auto;
+    margin-left: 150px;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 10px;
+ }
+ .para{
+    margin: 50px;
+ }
+ .para>p{
+   text-align:center; 
+   word-spacing: 5px;
+   
+   
+ }
+ .footer{
+   margin-left: 10px;
+   
+ }
